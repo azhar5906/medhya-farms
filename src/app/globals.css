@@ -1,0 +1,417 @@
+                 /* PAGE1 style */
+
+*{
+  list-style-type: none;
+}
+
+.card{
+  width: 1436px;
+  height: 490px;
+  margin-left: 40px;  
+  background: rgba(217, 217, 217, 1);
+  display: flex;
+  justify-content: center;
+ 
+
+  align-items: center;
+}
+.hero{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.box1{
+  width: 1431px;
+  height: 519px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.para1{
+  width: 650px;
+  height: 216px;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: left;
+  z-index: 1;
+}
+
+.rectangle{
+  width: 679px;
+  height: 519px;
+  background: rgba(217, 217, 217, 1);
+  background-image: url(./page2/images/quality.jpeg);
+  background-size: cover;
+}
+
+.para2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-top: -151px;
+  margin-left: 40px;
+  z-index: 0.5;
+}
+
+.mango{
+  width: 537px;
+  height: 47px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.41px;
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.mango-container{
+  width: 1437px;
+  height: 405px;
+  gap: 79px;
+  margin-left: 40px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mango1{
+  width: 300px;
+  height: 405px;
+  background: rgba(217, 217, 217, 1); 
+  background-image: url(./page2/images/unnamed.png);
+   background-size: cover;
+}
+.mango-img{
+  z-index: 0.4;
+
+
+}
+.intro{
+  width: 562px;
+  height: 38px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 91px;
+  margin-left: 40px;
+}
+
+.intro-container{
+  width: 1437px;
+  height: 361px;
+  gap: 75px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-left: 40px;
+}
+.intro-box{
+  width: 681px;
+  height: 361px;
+  background: rgba(217, 217, 217, 1);
+}
+
+.insta{
+  width: 665px;
+  height: 39px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-left: 40px;
+  margin-top: 123px;
+}
+.feed{
+  width: 324px;
+height: 315px;
+background: rgba(217, 217, 217, 1);
+}
+.insta-feed{
+  row-gap: 47px;
+  margin-left: 40px;
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.test{
+  width: 537px;
+height: 47px;
+font-size: 40px;
+font-weight: 400;
+line-height: 48.41px;
+margin-left: 40px;
+margin-top: 87px;
+
+}
+.test-box{
+  width: 1437px;
+  height: 405px;
+  gap: 79px;
+  margin-left: 40px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background-color: rgb(22, 71, 48);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
+.logo{
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.footer-links,.footer-contacts,.footer-store-info,.footer-app-download{
+  margin-top: 50px;
+}
+.foot-para{
+  margin-left: 30px;
+  font-size: 17.5px;
+}
+.list{
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+.ul-list{
+  font-size: 15px;
+  line-height: 35px;
+  margin-left: 40px;
+}
+
+.last-lists{
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+}
+
+.hr{
+  margin-top: 80px;
+}
+
+.last{
+  display: inline-block;
+  margin-right:50px;
+  margin-left: 25px;
+}
+
+.footer-copyright{
+  margin-top: 200px;
+  font-size: 25px;
+  width: 100%;
+  color: grey;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.terms{
+  color: grey;
+  margin-left: 20px;
+  height: 50px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+                  /* PAGE2 style */
+
+.organic-box{
+  width: 1460px;
+  height: 454px;
+  top: 1289px;
+  left: 143px;
+  margin-left: 40px;
+  margin-top: 124px;
+}
+
+.orange-head{
+color: orange;
+}
+.green{
+  color: green;
+  font-size: 55px;
+}
+.circle{
+  width: 180px;
+  height: 180px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+  background-image: url(./page2/images/brokoli.png);
+  object-fit: contain;
+  margin-left:45px;
+  margin-top: 50px;
+}
+.products{
+  font-size: 30px;
+  margin-top: 25px;
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+.products-list{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+
+}
+.feature-box{
+  width: 537px;
+  height: 47px;
+  top: 1929px;
+  margin-left: 144px;
+  margin-top: 186px;
+  margin-right: auto;
+}
+.option-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  margin-right: auto; 
+}
+
+.buttons {
+  display: flex;
+  margin-top: 198px;
+  margin-right: 153px;
+  gap: 50px;
+
+}
+.all-box{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  width: 117px;
+  height: 28px; 
+}
+
+.all-box:hover{
+  background: rgba(217, 217, 217, 1);
+}
+.main-container{
+  width: 1438px;
+  height: 701px;
+  top: 2002px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.main-cards{
+  width: 250px;
+  height: 330px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.top-box{
+  width: 250px;
+  height: 175px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-image: url(./page2/images/mango.png);
+  object-fit: contain;
+}
+.kg{
+  font-size: 35x;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.main-cards:hover{
+  transform: translateY(-10px);
+  border: 1px solid green;
+}
+.items-list{
+  color: green;
+  margin-left: 10px;
+}
+
+.items-list2{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.price{
+  margin-top: 10px;
+  margin-left: 10px; 
+  font-size: 17.5px;
+}
+
+.search-box{
+  width: 1390px;
+  height: 218px;
+  margin-left: 50px;
+  margin-top: 529px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.element1{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: px;
+}
+.element2{
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.element3{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: lightgray;
+}
+
+.email{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 23px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-size:27px;
+}
+ .search-box>input,button{
+  border-radius: 50px;
+  border: none;
+}
+.mail-box{
+  margin-top: 60px;
+  border-radius: 50px;
+}
+input{
+  border: none;
+}
+.email>input{
+  width: 450px;
+}
+.email>button{
+  background-color: mediumseagreen;
+  border: none;
+}
+
+.new-link>li>a{
+  color: mediumseagreen;
+}
+.new-link{
+  margin-top: 15px;
+
+}
