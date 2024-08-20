@@ -3,6 +3,11 @@
 *{
   list-style-type: none;
 }
+body{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 
 .card{
   width: 1436px;
