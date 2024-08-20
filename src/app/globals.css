@@ -11,12 +11,10 @@
   background: rgba(217, 217, 217, 1);
   display: flex;
   justify-content: center;
-  background-image: url("page2/images/head-bg1.jpeg");
+  background-image: url("page2/images/bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:  center center;
- 
-
+  /* background-position:  center center; */
   align-items: center;
 }
 .hero{
@@ -47,7 +45,7 @@
   width: 679px;
   height: 519px;
   background: rgba(217, 217, 217, 1);
-  background-image: url(./page2/images/quality.jpeg);
+  background-image: url("./page2/images/quality.jpeg");
   background-size: cover;
 }
 
@@ -126,11 +124,21 @@
   line-height: 34px;
   margin-left: 40px;
   margin-top: 123px;
+
+}
+.feed:hover{
+  transform: translateY(-10px);
+  box-shadow: 10px 5px 10px rgba(110, 225, 116, 0.2);
+
+
 }
 .feed{
   width: 324px;
-height: 315px;
-background: rgba(217, 217, 217, 1);
+  height: 315px;  
+  background-image: url("./page2/images/insta-post.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .insta-feed{
   row-gap: 47px;
@@ -140,15 +148,20 @@ background: rgba(217, 217, 217, 1);
   grid-template-columns: auto auto auto auto;
 }
 
+.testimonial1{
+  width: 300px;
+  height: 405px;
+  background: rgba(217, 217, 217, 1); 
+   background-size: cover;
+}
 .test{
   width: 537px;
-height: 47px;
-font-size: 40px;
-font-weight: 400;
-line-height: 48.41px;
-margin-left: 40px;
-margin-top: 87px;
-
+  height: 47px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.41px;
+  margin-left: 40px;
+  margin-top: 87px;
 }
 .test-box{
   width: 1437px;
@@ -208,6 +221,12 @@ margin-top: 87px;
   margin-left: 25px;
 }
 
+.last:hover{
+  transform: translateY(-10px);
+  font-size: 20px;
+  text-decoration: underline;
+  position: center center;
+}
 .footer-copyright{
   margin-top: 125px;
   font-size: 25px;
@@ -257,7 +276,7 @@ color: orange;
   display: inline-block;
   justify-content: space-between;
   background-image: url(./page2/images/brokoli.png);
-  object-fit: contain;
+  object-fit: cover;
   margin-left:45px;
   margin-top: 50px;
 }
@@ -291,7 +310,9 @@ color: orange;
 .heading {
   margin-right: auto; 
 }
-
+button{
+  all:unset;
+}
 .buttons {
   display: flex;
   margin-top: 198px;
@@ -304,7 +325,7 @@ color: orange;
   justify-content: center;
   background-color: white;
   align-items: center;
-  width: 117px;
+  width: 150px;
   height: 28px; 
 }
 
@@ -406,12 +427,17 @@ color: orange;
 }
 input{
   border: none;
+  all: unset;
+  margin-left: 10px;
 }
 .email>input{
-  width: 450px;
+  width: 350px;
 }
 .email>button{
   background-color: mediumseagreen;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
   border: none;
 }
 

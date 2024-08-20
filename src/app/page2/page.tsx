@@ -1,3 +1,5 @@
+
+
 const Card = () => {
     return (
       <div className="card">
@@ -124,7 +126,7 @@ const SearchBox = () => {
         </div>
         <div className="mail-box">
           <div className="email">
-            <input type="email" required placeholder="    Email Address"></input>
+            <input type="email" required placeholder="  Email Address"></input>
             <button className="email">Subscribe Now</button>
           </div>
         <div className="new-link"><li>Mauris sollicitudion odio.<a href="#">Curabitur euismod consequat elifend.</a></li></div>
@@ -206,6 +208,7 @@ const SearchBox = () => {
         <div>
           <span><a href="#" className="terms">Terms and Conditions</a></span> | 
           <span><a href="#" className="terms">Privacy Policy</a></span>
+          
           </div>
         
         

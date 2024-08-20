@@ -1,5 +1,4 @@
 // First Page
-
 import "./globals.css";
 
   const Card = () => {
@@ -107,6 +106,14 @@ const InstagramFeed=()=>{
   );
 }
 
+const Testimonials=()=>{
+  return(
+    <div>      
+    <div className="testimonial1"></div>
+  </div>
+
+  )
+}
 const Test =()=>{
   return(
     <div className="test">Testimonials</div>
@@ -115,10 +122,11 @@ const Test =()=>{
 const TestBox=()=>{
   return(
   <div className="test-box">
-    <Mango/>
-    <Mango/>
-    <Mango/>
-    <Mango/>
+    <Testimonials />
+    <Testimonials />
+    <Testimonials />
+    <Testimonials />
+    
     </div>
   )
 }
@@ -183,11 +191,11 @@ const Footer = () => {
     <div className="footer-bottom">
     <hr className="hr"></hr>
       <ul className="last-lists"> 
-        <span className="last">Home</span>|
-        <span className="last">About Us</span>|
-        <span className="last">Blog</span>|
-        <span className="last">Shop</span>|
-        <span className="last">Contact us</span>
+        <span className="last"><a href="#">Home</a></span>|
+        <span className="last"><a href="#">About Us</a> </span>|
+        <span className="last"><a href="#">Blog</a> </span>|
+        <span className="last"><a href="#">Shop</a> </span>|
+        <span className="last"><a href="#">Contact us</a> </span>
       </ul>
       <hr></hr>
     </div>
@@ -203,11 +211,11 @@ const Footer = () => {
   )
 }
 
-export default function Home() {
-  return (
-    <>
-    <Card/>
-    <Box1/>
+export default function  Home() {
+  return  (
+    < >
+    < Card/>
+    < Box1/>
     <BestMango/>
     <MangoContainer/>
     <Intro/>
