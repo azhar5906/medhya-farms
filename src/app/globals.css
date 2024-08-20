@@ -11,6 +11,10 @@
   background: rgba(217, 217, 217, 1);
   display: flex;
   justify-content: center;
+  background-image: url("page2/images/head-bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center center;
  
 
   align-items: center;
