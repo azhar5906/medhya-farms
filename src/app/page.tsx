@@ -192,8 +192,10 @@ const Footer = () => {
     <div className="footer-copyright">
     
       <li>© 2022 Nammorganic Store. All Rights Reserved.</li>
-        <span><a href="#" className="terms">Terms and Conditions</a></span> |
-        <span><a href="#" className="terms">Privacy Policy</a></span>
+      <div className="terms">
+        <span><a href="#">Terms and Conditions</a></span> | 
+        <span><a href="#">Privacy Policy</a></span>
+        </div>
     </div>
   </footer>
   )
