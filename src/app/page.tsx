@@ -1,5 +1,4 @@
 // First Page
-import { Box } from "@mui/material";
 import "./globals.css";
   const Card = () => {
     return (
