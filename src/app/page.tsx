@@ -1,6 +1,5 @@
 // First Page
 import "./globals.css";
-
   const Card = () => {
     return (
       <div className="card">
@@ -8,7 +7,6 @@ import "./globals.css";
       </div>
     )
   }
-
   const Box1 = () => {
     return (
       <>
@@ -47,7 +45,6 @@ import "./globals.css";
       </div>
     )
   }
-  
 
   const Intro=()=>{
     return(
@@ -61,7 +58,6 @@ import "./globals.css";
     </>
     )
   }
-
   const IntroBox=()=>{
     return(
       <div className="intro-container">
