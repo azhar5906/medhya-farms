@@ -1,5 +1,6 @@
 // First Page
 import "./globals.css";
+
   const Card = () => {
     return (
       <div className="card">
@@ -210,8 +211,8 @@ const Footer = () => {
 export default function  Home() {
   return  (
     < >
-    < Card/>
-    < Box1/>
+    <Card/>
+    <Box1/>
     <BestMango/>
     <MangoContainer/>
     <Intro/>
